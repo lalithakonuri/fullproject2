@@ -1,0 +1,46 @@
+.banner-div{
+    float: left;
+    width: 100%;
+}
+.banner-div img{
+    float: left;
+    width: 100%;
+}
+.main-div{
+    float: left;
+    width: 100%;
+}
+.main-left{
+    float: left;
+    width: 20%;
+    margin: 5% 0% 0% 15%;
+}
+.main-left img, .main-right img{
+    float: left;
+    width: 100%;
+}
+.main-right{
+    float: right;
+    width: 40%;
+    margin: 10% 0% 0% 0%;
+}
+.main-right h1{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-size: 60px;
+    margin: 0% 0% 0% 50%;
+}
+.gallery-div{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 3% 0% 3% 0%;
+    font-family: "Rubik Doodle Shadow", serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+.gallery-div img{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
