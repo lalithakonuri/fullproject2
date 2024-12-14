@@ -13,7 +13,7 @@
 .main-left{
     float: left;
     width: 20%;
-    margin: 5% 0% 0% 15%;
+    margin: 10% 0% 0% 15%;
 }
 .main-left img, .main-right img{
     float: left;
@@ -22,13 +22,15 @@
 .main-right{
     float: right;
     width: 40%;
-    margin: 10% 0% 0% 0%;
+    margin: 3% 0% 0% 0%;
 }
 .main-right h1{
+    float: right;
+    width: 100%;
     font-family: "Rubik Doodle Shadow", system-ui;
-    font-weight: 400;
-    font-size: 60px;
-    margin: 0% 0% 0% 50%;
+    font-weight: 400px;
+    font-size: 45px;
+    text-decoration: none;
 }
 .gallery-div{
     float: left;
@@ -44,3 +46,118 @@
     width: 20%;
     height: 200px;
 }
+.gallery-div p{
+    text-decoration: none;
+}
+.Volunteer-div{
+    float: left;
+    width: 100%;
+}
+.Volunteer-div img{
+    float: left;
+    width: 30%;
+    height: 450px;
+    margin: 15% 0% 15% 5%;
+    
+}
+.Volunteer-div h1{
+    float: left;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin: 20% 0% 3% 20%;
+}
+.Volunteer-div p{
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0% 0% 0% 8%;
+}
+.info-div{
+    float: left;
+    width: 100%;
+    background-color: rgb(70, 67, 67);
+    padding: 3% 0% 3% 0%;
+}
+.child-div{
+    float: left;
+    width: 23%;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    margin: 0% 0% 0% 8%;
+    height: 250px;
+}
+.child-div option{
+    background-color: black;
+    color: aliceblue;
+}
+.child-div h1{
+    text-align: center;
+    font-size: 50px;
+}
+.child-div p{
+    text-align: left;
+    font-size: 20px;
+    margin: 0% 2% 0% 17%;
+}
+.child-div input, .child-div select{
+    float: left;
+    width: 80%;
+    font-size: 25px;
+    margin: 3% 0% 0% 5%;
+    padding: 1% 0% 1% 0%;
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+.child-div button{
+    float: left;
+    width: 70%;
+    font-size: 20px;
+    margin: 0% 0% 0% 5%;
+}
+.footer-div{
+    float: left;
+    width: 100;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(59, 54, 54);
+    color: white;
+    margin: 2% 0% 0% 20%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.admission-div{
+    float: left;
+    width: 50%;
+    border: 2px solid black;
+    margin: 10% 0% 0% 20%;
+    
+}
+.admission-div h1{
+    float: left;
+    width: 40%;
+    border: 2px solid black;
+    text-align: center; 
+    margin: 5% 0% 5% 6%; 
+    padding: 1% 0% 1% 0%;
+}
+.register-div, .update-div, .delete-div, .view-div{
+    float: left;
+    width: 80%;
+    margin: 5% 0% 0% 25%;
+    font-size: 20px;
+}
+.register-div input, .register-div button, .update-div input, .update-div button, .update-div select, .delete-div input, .delete-div button{
+    float: left;
+    width: 40%;
+    text-align: center;
+    border: 2px solid black;
+    margin: 2% 0% 0% 10%;
+    padding: 0% 0% 0% 0%;
+    font-size: 20px;
+}
+
